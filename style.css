@@ -31,8 +31,13 @@ p {
     background: var(--primary-color);
     cursor: pointer;
     border-radius: 5px;
+    border: transparent;
     font-size: 12px;
     padding: 5px 12px;
+}
+
+.btn:active {
+    transform: scale(0.9);
 }
 
 .money-img {
